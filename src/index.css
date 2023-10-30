@@ -5,9 +5,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center ;
+  background-color: azure;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+.todo{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+input[type="checkbox"]{
+  position: fixed;
+  left: 43%;
+}
+.todo span{
+  margin-left: calc(20px-1px);
+}
+
+.inputBar{
+  font-size: large;
+}
+
+.addBtn{
+  margin: 15px;
+}
+
+.footerBtn{
+  margin: 10px;
+}
+.footerBtn button{
+  margin: 10px;
+}
+
